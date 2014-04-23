@@ -1,0 +1,29 @@
+@charset "gb2312";
+/* CSS Document */
+
+.box { width:980px; height:auto; margin-left:auto; margin-right:auto; padding:0px 5px;  }
+.clear { clear:both; display:block;}
+ul, li { padding:0px; margin:0px; list-style:none;}
+
+.position { height:25px; border:solid 1px #cccccc;}
+.show { margin-top:10px; border:solid 1px #cccccc;}
+
+ul.show_pic{ display:block; width:980px; height:auto; clear:both; padding:0px 10px; font-size:12px; }
+ul.show_pic li { display:block; float:left; width:180px; height:auto; margin:5px 5px 10px 5px;  border:solid 1px #cccccc; margin-left:5px; background:#FFFFFF;}
+ul.show_pic li a  { display:block; width:170px; height:150px;  padding:0px; margin-left:auto; margin-right:auto;   overflow:hidden; }
+ul.show_pic li a  img {width:170px;  height:auto; border:none; margin:5px 0px;}
+ul.show_pic li span { display:block; height:30px; line-height:30px; text-align:center; overflow:hidden;}
+ul.show_pic li:hover { background:#cccccc;}
+
+ 
+
+.page {display:block; clear:both; color:#0000FF; height:35px; width:auto; margin-left:auto; margin-right:auto; text-align:center; }
+.page a:link , .page a:visited ,.page span{ display:block; height:20px; line-height:20px; padding:0px 7px; float:left; margin-left:5px; border:solid 1px #cccccc; font-family:"ËÎÌו"; text-decoration:none; color:#000000; text-align:center; }
+.page span.now { border:none; font-weight:bold; }
+.page a:hover { background:#999999;}
+.page span.status { border:none;}
+
+.bottom { margin-top:10px; text-align:center;}
+.postion { margin:3px 15px; display:block; width:auto; border-bottom:solid #cccccc 1px; height:25px; padding-left:20px; padding-bottom:5px; background:url(images/house.gif) left center no-repeat; }
+.postion a , .postion span{ display:block; text-decoration:none; color:#333333; font-size:14px; margin:5px 2px; float:left;}
+.postion a:hover { color:#cc0000; }
