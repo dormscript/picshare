@@ -1,10 +1,10 @@
-windows安装
+windows安装 <br/><br/>
 
-1：安装wamp环境
-2：复制该程序到根目录，修改function.php中的“图片路径”，example:“G:/公司照片共享”
-3：启动gd2库
-4：将“图片路径”添加虚拟目录，将http.cnf改为utf-8编码
-如:修改http.cnf
+1：安装wamp环境<br/>
+2：复制该程序到根目录，修改function.php中的“图片路径”，如:“G:/公司照片共享”<br/>
+3：启动gd2库<br/>
+4：将“图片路径”添加虚拟目录，将http.cnf改为utf-8编码<br/>
+如:修改http.cnf<br/>
 Alias /share G:/公司照片共享
 <Directory "G:/公司照片共享/">
     Options Indexes FollowSymLinks MultiViews
