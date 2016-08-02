@@ -46,6 +46,6 @@
         location /share/{<br/>
             alias /Network/photo/;<br/>
         }<br/>
-    }<br/>
+    }
 
 
