@@ -1,5 +1,4 @@
 windows安装 <br/><br/>
-
 1：安装wamp环境<br/>
 2：复制该程序到根目录，修改function.php中的“图片路径”（根目录下function.php第2行），如:“G:/公司照片共享”<br/>
 3：启动gd2库<br/>
