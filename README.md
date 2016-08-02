@@ -1,23 +1,22 @@
-windows安装 <br/><br/>
-1：安装wamp环境<br/>
-2：复制该程序到根目录，修改function.php中的“图片路径”（根目录下function.php第2行），如:“G:/公司照片共享”<br/>
-3：启动gd2库<br/>
-4：将“图片路径”添加别名，将http.cnf改为utf-8编码<br/>
-如:修改http.cnf<br/>
-Alias /share G:/公司照片共享<br/>
-<Directory "G:/公司照片共享/"><br/>
-    Options Indexes FollowSymLinks MultiViews<br/>
-    AllowOverride All<br/>
-    Order Deny,Allow<br/>
-    Allow from all<br/>
-</Directory><br/><br/><br/><br/><br/>
+## windows安装 
+* 1：安装wamp环境
+* 2：复制该程序到根目录，修改function.php中的“图片路径”（根目录下function.php第2行），如:“G:/公司照片共享”
+* 3：启动gd2库
+* 4：将“图片路径”添加别名，将http.cnf改为utf-8编码
+
+	如:修改http.cnf
+	Alias /share G:/公司照片共享
+	<Directory "G:/公司照片共享/">
+	    Options Indexes FollowSymLinks MultiViews
+	    AllowOverride All
+	    Order Deny,Allow
+	    Allow from all
+	</Directory>
 
 
-
-
-linux安装方法：<br/>
-1：  新建虚拟主机，将此程序放到虚拟主机根目录 <br/>
-2:   在nginx重定向图片目录；<br/>
+## linux安装方法：
+* 1：  新建虚拟主机，将此程序放到虚拟主机根目录 
+* 2:   在nginx重定向图片目录；
 	location /share/{<br/>
             alias /Network/photo/;<br/>
         }<br/>
