@@ -47,6 +47,6 @@ linux安装方法：<br/>
         location /share/{<br/>
             alias /Network/photo/;<br/>
         }<br/>
-    }<br/>
+    }
 
 
